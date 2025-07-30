@@ -1,0 +1,57 @@
+# GitHub Pages Configuration for Average Calculator Privacy Policy
+
+# Site settings
+title: "Average Calculator - Privacy Policy"
+description: "Privacy Policy for Average Calculator Android App - No personal data collection"
+url: "https://yourusername.github.io"
+baseurl: "/average-calculator-privacy"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - app/
+  - build/
+  - gradle/
+  - gradlew
+  - gradlew.bat
+  - build.gradle
+  - settings.gradle
+  - local.properties
+  - gradle.properties
+  - "*.zip"
+  - commandlinetools-*
+
+# Include files
+include:
+  - privacy-policy.html
+  - index.html
+
+# Plugin settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO settings
+seo:
+  name: "Average Calculator Privacy Policy"
+  type: "WebPage"
+
+# Language settings
+lang: en
+
+# Default layout
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
